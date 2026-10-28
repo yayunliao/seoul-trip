@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="首爾行程">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>首爾 5 天 4 夜行程</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🇰🇷%3C/text%3E%3C/svg%3E">
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--tx:#222;--mu:#6b6b6b;--ac:#d9433b;--ln:#e6e2d8;--chip:#f0ece2;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17171a;--card:#222226;--tx:#eee;--mu:#a0a0a6;--ac:#ff7a70;--ln:#34343a;--chip:#2d2d33}}
+:root[data-theme="dark"]{--bg:#17171a;--card:#222226;--tx:#eee;--mu:#a0a0a6;--ac:#ff7a70;--ln:#34343a;--chip:#2d2d33}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 -apple-system,"PingFang TC","Noto Sans TC",sans-serif}
+header{padding:20px 16px 8px}
+h1{margin:0;font-size:22px}
+.sub{color:var(--mu);font-size:14px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:8px;padding:8px 16px;overflow-x:auto;border-bottom:1px solid var(--ln)}
+nav button{flex:0 0 auto;border:1px solid var(--ln);background:var(--card);color:var(--tx);border-radius:20px;padding:6px 14px;font-size:14px}
+nav button.on{background:var(--ac);border-color:var(--ac);color:#fff}
+main{padding:12px 16px 40px;max-width:640px;margin:0 auto}
+h2{font-size:19px;margin:8px 0 2px}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:14px;padding:12px 14px;margin:10px 0}
+.card h3{margin:0 0 4px;font-size:16px}
+.card p{margin:2px 0;font-size:14px}
+.tr{color:var(--mu);font-size:13px}
+.tag{display:inline-block;background:var(--chip);border-radius:6px;padding:0 8px;font-size:12px;margin-right:4px}
+a.map{display:inline-block;margin-top:6px;color:var(--ac);font-size:14px;text-decoration:none;border:1px solid var(--ac);border-radius:8px;padding:2px 10px}
+.seg{display:flex;gap:8px;margin:8px 0}
+.seg button{flex:1;border:1px solid var(--ln);background:var(--card);color:var(--tx);border-radius:10px;padding:8px;font-size:15px}
+.seg button.on{border-color:var(--ac);color:var(--ac);font-weight:600}
+.warn{border-left:4px solid var(--ac)}
+.fin{text-align:center;color:var(--mu);margin:20px 0}
+ul{margin:4px 0 4px 18px;padding:0;font-size:14px}
+.ov{max-width:640px;margin:0 auto;padding:0 16px}
+</style>
+</head>
+<body>
+<header>
+<h1>🇰🇷 首爾 5 天 4 夜</h1>
+<div class="sub">2026/11/3（二）– 11/7（六）・仁川＋弘大</div>
+</header>
+<div class="ov">
+<div class="card"><h3>✈ 航班</h3><p>去程　11/3（二）20:00 桃園 T1 → 23:30 仁川 T1</p><p>回程　11/7（六）12:30 仁川 T2 → 14:20 桃園 T1</p></div>
+<div class="card"><h3>🛏 住宿</h3><p>11/3　仁川機場旁民宿（Incheon Airport Guesthouse L）</p><p>11/4–11/7　弘大・史努比笑臉工作室<br><span class="tr">16:00 後入住，11/7 11:00 前退房</span></p></div>
+
+</div>
+<nav id="nav"></nav>
+<main id="main"></main>
+<script>
+var M=function(u){return 'https://naver.me/'+u};
+var D=[
+{k:'Day 1',dt:'11/3（二）',ti:'抵達仁川',it:[
+{t:'✈ 去程：桃園 TPE → 仁川 ICN',n:'11/3 20:00 桃園第 1 航廈出發 → 23:30 抵達仁川第 1 航廈'},{t:'抵達仁川機場後',n:'下飛機後再叫 KAKAO T 計程車到住宿，約 15 分鐘'},
+{t:'住宿：仁川機場賓客 Hauseuel',n:'인천광역시 영종구 운서동 3120-12<br>인천광역시 영종구 모랫말로 16번길 13-23<br>建築物名稱：인천공항게스트하우스엘<br>入住：房東會通知自助入住方式',l:M('x7eJbOyG')}
+
+]},
+{k:'Day 2',dt:'11/4（三）',ti:'民宿 → 廣藏市場 → 南大門 → 明洞 → 民宿（另有 Plan A）',it:[
+{t:'飯店 → 弘大民宿（史努比笑臉工作室）',n:'地址：18-9 Yeonnam-ro 3-gil, Mapo-gu, Seoul<br>飯店走路 11 分到 A’REX 雲西站 2 號出口 → 弘益大學站 3 號出口 → 走路約 12 分到民宿',tr:'全程約 75 分',l:M('GFsvXlMM')},
+{t:'搭乘提醒',n:'藍色區域為普通列車（All Stop Train）月台，直接刷 T-money 進站'},
+{t:'自助入住',n:'11/4（三）16:00 之後入住；11/7（六）11:00 前退房。行李可寄放在房門口。提供洗髮精、沐浴乳、洗碗精、毛巾'},
+{t:'行李寄放：RAON 弘大',n:'7 號出口 B2，09:30–21:30／23:30，3,000 韓元起（單日），專人看管需看護照，無尺寸限制'},
+{p:'A',t:'29cm Kids 童裝',n:'弘益大學站 3 號入口 → 纛島站 8 號出口 → 走 9 分。聖水洞有分店（可去可不去）',tr:'約 50 分',l:M('5CCNqOld')},
+{p:'A',t:'南大門市場',n:'纛島站 → 東大門歷史文化公園站 → 轉 4 號線 → 會賢站。10:00–17:00。5 號出口通中央大街（美食、初次造訪）；6 號出口通童裝街（高 CP 值飾品服飾）。另有鯛魚燒',tr:'約 30 分',l:M('GJZnxHCI')},
+{p:'B',t:'廣藏市場（現金）',n:'弘益大學站 3 號入口 → 2 號線 → 乙支路 4 街站 4 號出口 → 走 5 分',tr:'約 30 分',l:M('GDQHyPIs')},
+{p:'B',t:'南大門市場',n:'鐘路 5 街站 7 號入口 → 1 號線 → 首爾站 → 轉 4 號線 → 會賢站 6 號出口。10:00–17:00。5 號出口通中央大街；6 號出口通童裝街',tr:'約 30 分',l:M('GJZnxHCI')},
+{p:'B',t:'明洞商圈',n:'南大門可步行到明洞，也可搭 4 號線一站',l:M('F05vxlZr')},
+{t:'逛完回民宿',n:'末班車：平日約凌晨 1 點，週末提前至凌晨 12 點',w:1},
+{t:'🎉 恭喜完成 Day 2！',fin:1}
+]},
+{k:'Day 3',dt:'11/5（四）',ti:'北村 → 景福宮 → 光化門 → 聖水洞 → 弘大商圈 → 民宿',it:[
+{t:'早餐：EGG DROP',n:'民宿走路 20 分到弘益大學站 9 號出口。營業 08:30–22:00。必吃：Garlic Bacon Cheese、Mr. Egg、American Ham Cheese、Avo Holic、Bacon Double Cheese',l:M('F3EK3Tah')},
+{t:'早餐（二選一）：ISAAC TOAST',n:'營業 08:00–20:00。人氣：火腿起司吐司、烤肉吐司 MVP、辣雞肉',l:M('xYNMebVu')},
+{t:'北村韓屋村',n:'弘益大學站 9 號入口 → 2 號線 → 乙支路 3 街 → 轉 3 號線 → 安國站，2 或 3 號出口，走 6 分到北村一景、20 分到八景',tr:'約 40 分',l:M('Fae6FqbL'),w:'⚠ 17:00–10:00 禁止遊客進入（宵禁）'},
+{t:'昌德宮',n:'安國站 3 號出口走約 6 分，可看北村第一景「昌德宮全景」。首爾五大宮殿之一，建於 1405 年，朝鮮王朝第二座宮殿，聯合國世界文化遺產'},
+{t:'北村附近：倫敦貝果',n:'安國站 2 號出口，07:00–18:00。建議線上預約，也可現場取號；內用與外帶排隊方式相同',l:M('xtNAdROh')},
+{t:'三清洞麵片湯',n:'11:00–20:00',l:M('5wrGB2eu')},
+{t:'三清洞',n:'北村最後一景「三清洞石階路」，文創小店／藝廊'},
+{t:'景福宮',n:'三清洞文化街走路約 15 分。09:00–17:00（韓國購物慶典免門票）',l:M('FAAfuTVB')},
+{t:'MLB Bukchon 體育場',n:'景福宮走約 15 分。11:00–20:00（帽子刺繡）',l:M('xwo3Lu5q')},
+{t:'光化門',n:'MLB 走 20 分到光化門站 5 號出口，直走世宗大路 5 分到世宗文化會館。11:00–21:00（買襪子）',l:M('GGGbQyjg')},
+{t:'聖水洞',n:'光化門站 5 號入口 → 5 號線 → 乙支路 4 街 → 轉 2 號線 → 聖水站 3 號出口。12:00–18:00，逛街小物',tr:'約 40 分',l:M('IGsP7yst')},
+{t:'29cm Kids 童裝（聖水分店）',n:'聖水站 3 號出口走 6 分',l:M('Gy32HtZt')},
+{t:'弘大商圈',n:'2 號線 聖水站 → 弘益大學站 9 號出口。3 號咖啡廳＆文藝；4 號室內商場；8 號平價服飾＆設計師小店；9 號主要逛街・夜生活・美食（Olive Young）',tr:'約 30 分',l:M('Gy32HsSt')},
+{t:'🎉 恭喜完成 Day 3！',fin:1}
+]},
+{k:'Day 4',dt:'11/6（五）',ti:'民宿 → 大蒜麵包 → 漢南洞 → 樂天超市 → 民宿',it:[
+{t:'招牌邪惡大蒜麵包 만동제과',n:'民宿走路約 14–15 分。營業 11:00–21:00',l:M('IgMLmTYB')},
+{t:'漢南洞',n:'弘益大學站 3 號入口 → A’REX 到孔德站 → 轉 6 號線 → 漢江鎮站 3 號出口。營業 12:00–20:00。Mardi Mercredi（衣物）、Nonfiction 或 Tamburins（試香）、咖啡廳一條街',tr:'約 40 分',l:M('5ajUevmq')},
+{t:'樂天超市',n:'結帳時出示護照辦理退稅。漢江鎮站 → 6 號線 → 新堂站，出站走 7 分 → 轉 2 號線 → 乙支路入口站 7 號出口',tr:'約 30 分',l:M('xTydzDDK')},
+{t:'樂天超市必買',n:'<ul><li><b>零食：</b>HBAF 杏仁果、樂天青葡萄糖、樂天 Zero 水果軟糖／Zero 巧克力派、樂天養樂多軟糖、PEPERO 巧克力棒</li><li><b>餅乾：</b>海太蜂蜜奶油洋芋片、農心蝦味條／黑松露風味、好麗友烏龜玉米脆片、好麗友預感香烤洋芋片、CROWN 鮮奶油鬆餅、CW 巧克力麻糬餅、好麗友鯛魚燒蛋糕、Binch 巧克力餅乾、Market O 布朗尼</li><li><b>海苔：</b>東遠兩班海苔脆片、東遠兩班海苔</li><li><b>飲料：</b>BINGGRAE 香蕉牛奶、KANU 無糖拿鐵、DONGSUH 玉米鬚茶</li><li><b>泡麵：</b>農心辛拉麵、不倒翁濃厚起司拉麵／金螃蟹海鮮風味拉麵、不倒翁金拉麵／芝麻拉麵、農心炸醬麵、三養火辣雞肉風味鐵板炒麵</li></ul>'},
+{t:'之後',n:'看要去哪都可以'},
+{t:'🎉 恭喜完成 Day 4！',fin:1}
+]},
+{k:'Day 5',dt:'11/7（六）',ti:'回程',it:[
+{t:'前往仁川機場第 2 航廈',n:'07:00 從弘大出發，搭 AREX 機場鐵路到仁川機場第 2 航廈，約 09:10 抵達（預留 3–4 小時）',tr:'約 70 分'},
+{t:'回程航班',n:'仁川 ICN 第 2 航廈　12:30 起飛<br>桃園 TPE 第 1 航廈　14:20 抵達'}
+]}
+];
+var nav=document.getElementById('nav'),main=document.getElementById('main'),cur=0,plan='A';
+function card(i){
+if(i.fin)return '<div class="fin">'+i.t+'</div>';
+var h='<div class="card'+(i.w&&i.w!==1?' warn':'')+'"><h3>'+(i.p?'<span class="tag">Plan '+i.p+'</span>':'')+i.t+'</h3>';
+if(i.n)h+='<p>'+i.n+'</p>';
+if(i.tr)h+='<p class="tr">⏱ '+i.tr+'</p>';
+if(i.w&&i.w!==1)h+='<p><b>'+i.w+'</b></p>';
+if(i.l)h+='<a class="map" href="'+i.l+'" target="_blank" rel="noopener">Naver 地圖 ↗</a>';
+return h+'</div>';}
+function render(){
+var d=D[cur],h='<h2>'+d.k+'・'+d.dt+'</h2><div class="sub">'+d.ti+'</div>';
+var hasP=d.it.some(function(x){return x.p});
+if(hasP)h+='<div class="seg"><button data-p="A" class="'+(plan=='A'?'on':'')+'">Plan A</button><button data-p="B" class="'+(plan=='B'?'on':'')+'">Plan B</button></div>';
+var shown=false;
+d.it.forEach(function(x){
+if(x.p&&x.p!==plan)return;
+h+=card(x);});
+main.innerHTML=h;
+main.querySelectorAll('.seg button').forEach(function(b){b.onclick=function(){plan=b.dataset.p;render();}});
+nav.querySelectorAll('button').forEach(function(b,i){b.className=i==cur?'on':'';});
+window.scrollTo(0,0);}
+D.forEach(function(d,i){var b=document.createElement('button');b.textContent=d.k+' '+d.dt.split('（')[0];b.onclick=function(){cur=i;render();};nav.appendChild(b);});
+render();
+</script>
+</body>
+</html>
